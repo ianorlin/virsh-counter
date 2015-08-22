@@ -1,0 +1,4 @@
+#!/bin/bash
+#this will grep all virtual machines for the first argument
+
+virsh list --all |grep $1
